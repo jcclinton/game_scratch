@@ -46,10 +46,7 @@ function Tile:setPos(x, y)
 end
 
 function Tile:draw()
-    --print("tiles: ", dump(tiles))
     print("x: ", self.x, ", y: ", self.y)
-    --love.graphics.print("Hello World!", self.x, self.y)
-    --love.graphics.print("Hello World!", 400, 300+self.y)
     local cap = 255
     local gap = 9
 
